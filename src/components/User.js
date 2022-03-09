@@ -14,7 +14,7 @@ import {
   getUserSuccess, 
   addUserFailed, 
   addUserStart,
-  addUserSuccess} from '../redux/features/UserSlice';
+  addUserSuccess,  } from '../redux/features/UserSlice';
 
 
 const config = {
@@ -27,12 +27,12 @@ const config = {
   ],
   };
 
-  
-  const User = () => {
+const User = () => {
     const [form] = Form.useForm()
     const dispatch = useDispatch()
     const listUserData = useSelector((state) => state.users.listUser);
-    
+    // Modal sửa thông tin user
+    const [modalEdit, setModalEdit] = useState(false);
     //Get list user
     useEffect(() => {
       dispatch(getUserStart())
@@ -42,9 +42,6 @@ const config = {
       .catch(error => dispatch(getUserFailed(error)))
     },[listUserData])
 
-
-    // Modal sửa thông tin user
-    const [modalEdit, setModalEdit] = useState(false);
     //Edit user
     const [editUser, setEditUser] = useState()
 
