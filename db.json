@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "name": "Nguyễn Văn q",
+      "email": "sonhero981@gmail.com",
+      "phone": "+84965976864",
+      "dateOfBirth": "2022-03-31T07:03:46.649Z",
+      "id": 13
+    },
+    {
+      "name": "Nguyễn Văn C",
+      "email": "son123@gmail.com",
+      "phone": "+84965976864",
+      "dateOfBirth": "2003-03-02T17:49:14.538Z",
+      "id": 15
+    },
+    {
+      "name": "Nguyễn Hùng Sơn",
+      "email": "sonhero981@gmail.com",
+      "phone": "+84965976864",
+      "dateOfBirth": "2022-03-24T06:34:33.485Z",
+      "id": 16
+    },
+    {
+      "name": "Hùng Sơn",
+      "email": "sonhero981@gmail.com",
+      "phone": "+84965976864",
+      "dateOfBirth": "2022-03-31T03:15:26.298Z",
+      "id": 17
+    },
+    {
+      "name": "Nguyễn D",
+      "email": "sonhero981@gmail.com",
+      "phone": "+84965976864",
+      "dateOfBirth": "2022-03-31T06:34:54.956Z",
+      "id": 18
+    },
+    {
+      "name": "Hùng Sơn 123",
+      "email": "sonhero981@gmail.com",
+      "phone": "+84965976864",
+      "dateOfBirth": "2022-03-26T06:36:29.644Z",
+      "id": 19
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+@import '~antd/dist/antd.css';
+
+.login-form {
+    display: flex;
+    width: 500px;
+    margin: 200px auto;
+    border-radius: 10px;
+    border: 1px solid #1890ff;
+    padding: 40px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-form Button {
+    width: 200px;
+}
+
+.login-header {
+    color: #1890ff;
+    font-size: 40px;
+    font-weight: 600;
+}
